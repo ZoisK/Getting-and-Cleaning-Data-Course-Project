@@ -24,7 +24,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 
 ### R script 
-The script [run_analysis.R](Getting-and-Cleaning-Data-Course-Project/run_analysis.R) contains all necessary functions to perform on the data.        
+The script [run_analysis.R](run_analysis.R) contains all necessary functions to perform on the data.        
 Look for the comments in the code for detailed explanation of the functionality.    
 The code is split in functions to make it easier to operate, however the functions are not really meant to be self-sustained. To allow interactive data manipulation in RStudio the data tables are created in Global Environment.   
 
