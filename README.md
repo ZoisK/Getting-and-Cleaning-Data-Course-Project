@@ -1,22 +1,20 @@
 # Getting-and-Cleaning-Data-Course-Project
-Peer-graded Assignment: Getting and Cleaning Data Course Project - coursera, John Hopkins
-Getting-and-Cleaning-Data-Course-Project
-===========
+
 This repo contains the deliverables for the peer-graded assignment "Getting and Cleaning Data Course Project" running on coursera, John Hopkins.
 
-Contents
-===========
+## Contents
 
 ### Raw Data (UCI-HAR)
 the raw data represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
 
-Human Activity Recognition Using Smartphones Dataset
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
-Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universitΰ degli Studi di Genova.
-Via Opera Pia 11A, I-16145, Genoa, Italy.
-activityrecognition@smartlab.ws
-www.smartlab.ws
+Human Activity Recognition Using Smartphones Dataset  
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.  
+Smartlab - Non Linear Complex Systems Laboratory  
+DITEN - Universitΰ degli Studi di Genova.  
+Via Opera Pia 11A, I-16145, Genoa, Italy.  
+activityrecognition@smartlab.ws  
+www.smartlab.ws  
+
 
 A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -26,9 +24,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 
 ### R script 
-The script run_analysis.R contains all necessary functions 
-Comments in the code explain the functionality in more detail.
-The code is split in functions to make it easier to operate, however the functions are not really meant to be self-sustained. To allow interactive data manipulation in RStudio the data tables are created in Global Environment. 
+The script [run_analysis.R][] contains all necessary functions to perform on the data.        
+Look for the comments in the code for detailed explanation of the functionality.    
+The code is split in functions to make it easier to operate, however the functions are not really meant to be self-sustained. To allow interactive data manipulation in RStudio the data tables are created in Global Environment.   
+
+#### Overview 
+
+#### List of Functions
+
+#### Notes
 
 
 ### Tidy Data
