@@ -18,6 +18,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 The data were retrieved on July 26th 2018 from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+The data is not uploaded in this repo to avoid unnecessary data volume. 
 
 ## R script 
 The script [run_analysis.R](run_analysis.R) contains all necessary functions 
