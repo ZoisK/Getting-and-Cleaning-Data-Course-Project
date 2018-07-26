@@ -85,6 +85,7 @@ The measured quantities are listed below. Since the original data were normalize
 *  "angular velocity jerk magnitude in freq domain stdev"
 
 ## Original data set
+
 The original data set used for calculating the averages above is 
 
 Human Activity Recognition Using Smartphones Dataset
@@ -103,4 +104,16 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ### Data values of the original dat
 
-The values 
+The information on the measured values is taken from the explanatory files accompanying the original data, which are also uploaded in this repo for easier reference:
+* [README.txt](README.txt)
+* [features_info.txt](features_info.txt)
+
+## Process to create the Average Measurements data set
+
+We've merged the training and test sets of the original data 
+We keep only the measurements on the mean and standard deviation for each measurement type
+We average the measurements for each activity and each subject.
+
+### R Code to process the data
+
+The code is contained in [run_analysis.R](run_analysis.R)
