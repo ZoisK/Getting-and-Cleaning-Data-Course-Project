@@ -10,7 +10,7 @@ The file [AverageMeasurements.txt](AverageMeasurements.txt) contains the calcula
 The file [Codebook.md](Codebook.md) explains the contents of the file [AverageMeasurements.txt](AverageMeasurements.txt) and how these were calculated.
 
 ## Raw Data (UCI-HAR)
-the raw data represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
+The raw data come from the following source:
 
 Human Activity Recognition Using Smartphones Dataset
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
@@ -43,7 +43,7 @@ To allow interactive data manipulation in RStudio the data tables are created in
 ```
 
 ### FUNCTIONS
-The comments in the function code provide insight into the implementation approach 
+The following functions are implemented in the R script file; check the source code comments for more details on the implementation 
 
 ##### doit()
 This is a program-like function calling in subsequent steps all other functions as needed 
