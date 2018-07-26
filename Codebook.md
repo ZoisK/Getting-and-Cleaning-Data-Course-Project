@@ -1,11 +1,13 @@
-# Contents of file AverageMeasurements.txt
+# Scope 
+This codebook describes the contents of file [AverageMeasurements.txt](AverageMeasurements.txt)
 
-This data set provides the average value for a subset of the original measured data set (described in detail in UCI HAR Dataset)
-For each individual of the 30 volunteers (as identified by the "Subject.ID") performing each of the 6 activities (as identified by the "Activity") 
-the average value of 66 different measured quantities is given. 
+This file provides a reduced summary data set based on the measurements of the original data set (see the section below for more details)
+
+# Contents
+For each individual of the 30 volunteers (as identified by the "Subject.ID") performing each of the 6 activities (as identified by the "Activity") the average value of 66 different measured quantities is given. 
 The measured quantities are listed below. Since the original data were normalized and bounded in [-1,1] so are the average values given in this reduced data set. 
 
-# Indexing Columns
+## Indices (subject performing activity)
 
 *  "Subject.ID" 
     - identifies the individual volunteer, values are of the form Subject.<nn>, where <nn> is a 2-digit number ranging from 1 to 30 for the 30 volunteers
@@ -13,7 +15,7 @@ The measured quantities are listed below. Since the original data were normalize
  *  "Activity"                                             
     - identifies the particular activity, values are {WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING} 
 
-# Columns with the Average Values from the measurements 
+## Average Values from the measurements 
  
 *  "body acceleration in time domain mean-X"              
 *  "body acceleration in time domain mean-Y"              
@@ -81,3 +83,24 @@ The measured quantities are listed below. Since the original data were normalize
 *  "body acceleration jerk magnitude in freq domain stdev"
 *  "angular velocity magnitude in freq domain stdev"      
 *  "angular velocity jerk magnitude in freq domain stdev"
+
+## Original data set
+The original data set used for calculating the averages above is 
+
+Human Activity Recognition Using Smartphones Dataset
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Universitΰ degli Studi di Genova.
+Via Opera Pia 11A, I-16145, Genoa, Italy.
+activityrecognition@smartlab.ws
+www.smartlab.ws
+
+A full description is available at the site where the data was obtained:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The data were retrieved on July 26th 2018 from:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+### Data values of the original dat
+
+The values 
