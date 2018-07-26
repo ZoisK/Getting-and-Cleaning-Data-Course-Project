@@ -1,0 +1,83 @@
+# Contents of file AverageMeasurements.txt
+
+This data set provides the average value for a subset of the original measured data set (described in detail in UCI HAR Dataset)
+For each individual of the 30 volunteers (as identified by the "Subject.ID") performing each of the 6 activities (as identified by the "Activity") 
+the average value of 66 different measured quantities is given. 
+The measured quantities are listed below. Since the original data were normalized and bounded in [-1,1] so are the average values given in this reduced data set. 
+
+# Indexing Columns
+
+*  "Subject.ID" 
+    - identifies the individual volunteer, values are of the form Subject.<nn>, where <nn> is a 2-digit number ranging from 1 to 30 for the 30 volunteers
+
+ *  "Activity"                                             
+    - identifies the particular activity, values are {WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING} 
+
+# Columns with the Average Values from the measurements 
+ 
+*  "body acceleration in time domain mean-X"              
+*  "body acceleration in time domain mean-Y"              
+*  "body acceleration in time domain mean-Z"              
+*  "gravity acceleration in time domain mean-X"           
+*  "gravity acceleration in time domain mean-Y"           
+*  "gravity acceleration in time domain mean-Z"           
+*  "body acceleration Jerk in time domain mean-X"         
+*  "body acceleration Jerk in time domain mean-Y"         
+*  "body acceleration Jerk in time domain mean-Z"         
+*  "angular velocity in time domain mean-X"               
+*  "angular velocity in time domain mean-Y"               
+*  "angular velocity in time domain mean-Z"               
+*  "angular Velocity jerk in time domain mean-X"          
+*  "angular Velocity jerk in time domain mean-Y"          
+*  "angular Velocity jerk in time domain mean-Z"          
+*  "body acceleration magnitude in time domain mean"      
+*  "gravity acceleration magnitude in time domain mean"   
+*  "body acceleration jerk magnitude in time domain mean" 
+*  "angular velocity magnitude in time domain mean"       
+*  "angular velocity jerk magnitude in time domain mean"  
+*  "body acceleration in freq domain mean-X"              
+*  "body acceleration in freq domain mean-Y"              
+*  "body acceleration in freq domain mean-Z"              
+*  "body acceleration Jerk in freq domain mean-X"         
+*  "body acceleration Jerk in freq domain mean-Y"         
+*  "body acceleration Jerk in freq domain mean-Z"         
+*  "angular velocity in freq domain mean-X"               
+*  "angular velocity in freq domain mean-Y"               
+*  "angular velocity in freq domain mean-Z"               
+*  "body acceleration magnitude in freq domain mean"      
+*  "body acceleration jerk magnitude in freq domain mean" 
+*  "angular velocity magnitude in freq domain mean"       
+*  "angular velocity jerk magnitude in freq domain mean"  
+*  "body acceleration in time domain stdev-X"             
+*  "body acceleration in time domain stdev-Y"             
+*  "body acceleration in time domain stdev-Z"             
+*  "gravity acceleration in time domain stdev-X"          
+*  "gravity acceleration in time domain stdev-Y"          
+*  "gravity acceleration in time domain stdev-Z"          
+*  "body acceleration Jerk in time domain stdev-X"        
+*  "body acceleration Jerk in time domain stdev-Y"        
+*  "body acceleration Jerk in time domain stdev-Z"        
+*  "angular velocity in time domain stdev-X"              
+*  "angular velocity in time domain stdev-Y"              
+*  "angular velocity in time domain stdev-Z"              
+*  "angular Velocity jerk in time domain stdev-X"         
+*  "angular Velocity jerk in time domain stdev-Y"         
+*  "angular Velocity jerk in time domain stdev-Z"         
+*  "body acceleration magnitude in time domain stdev"     
+*  "gravity acceleration magnitude in time domain stdev"  
+*  "body acceleration jerk magnitude in time domain stdev"
+*  "angular velocity magnitude in time domain stdev"      
+*  "angular velocity jerk magnitude in time domain stdev" 
+*  "body acceleration in freq domain stdev-X"             
+*  "body acceleration in freq domain stdev-Y"             
+*  "body acceleration in freq domain stdev-Z"             
+*  "body acceleration Jerk in freq domain stdev-X"        
+*  "body acceleration Jerk in freq domain stdev-Y"        
+*  "body acceleration Jerk in freq domain stdev-Z"        
+*  "angular velocity in freq domain stdev-X"              
+*  "angular velocity in freq domain stdev-Y"              
+*  "angular velocity in freq domain stdev-Z"              
+*  "body acceleration magnitude in freq domain stdev"     
+*  "body acceleration jerk magnitude in freq domain stdev"
+*  "angular velocity magnitude in freq domain stdev"      
+*  "angular velocity jerk magnitude in freq domain stdev"
