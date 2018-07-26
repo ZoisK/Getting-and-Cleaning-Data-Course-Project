@@ -62,12 +62,11 @@ Create the descriptive column names for the table.
 
 ## Tidy Data
 
-The file AveragedMeasurements.txt contains the average measurements of the mean and standard deviation values 
-for each subject and activity. 
+The file [AverageMeasurements.txt](AverageMeasurements.txt) contains the calculated average measurements of the mean and standard deviation values for each of the volunteers perfroming each of the activities. 
 
 ## Codebook
 
-The Codebook.md file explains the AveragedMeasurements.txt file contents
+The file [Codebook.md](Codebook.md) explains the contents of the file [AverageMeasurements.txt](AverageMeasurements.txt) and how these were calculated.
 
 ## Notes
 
