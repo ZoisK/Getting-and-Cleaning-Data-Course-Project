@@ -1,6 +1,14 @@
 # Getting-and-Cleaning-Data-Course-Project
 This repo contains the deliverables for the "Getting and Cleaning Data Course Project" 
 
+## Tidy Data
+
+The file [AverageMeasurements.txt](AverageMeasurements.txt) contains the calculated average measurements of the mean and standard deviation values for each of the volunteers perfroming each of the activities. 
+
+## Codebook
+
+The file [Codebook.md](Codebook.md) explains the contents of the file [AverageMeasurements.txt](AverageMeasurements.txt) and how these were calculated.
+
 ## Raw Data (UCI-HAR)
 the raw data represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
 
@@ -21,6 +29,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The data is not uploaded in this repo to avoid unnecessary data volume. 
 
 ## R script 
+
 The script [run_analysis.R](run_analysis.R) contains all necessary functions 
 Comments in the code explain the functionality in more detail.
 The code is split in functions to make it easier to operate, 
@@ -59,14 +68,6 @@ Reduce the number of columns in the table keeping only mean and std.dev measurem
 
 ##### create_names()
 Create the descriptive column names for the table. 
-
-## Tidy Data
-
-The file [AverageMeasurements.txt](AverageMeasurements.txt) contains the calculated average measurements of the mean and standard deviation values for each of the volunteers perfroming each of the activities. 
-
-## Codebook
-
-The file [Codebook.md](Codebook.md) explains the contents of the file [AverageMeasurements.txt](AverageMeasurements.txt) and how these were calculated.
 
 ## Notes
 
